@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&display=swap');
+*{ 
+    margin: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #dedede;
+}
+p{
+    line-height: 2;
+}
+h1,
+h2,
+h3{
+    text-align: center;
+    color: black;
+}
+
+/*utilities*/
+.btn{
+    display: block;  
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #edf5e1;
+    margin: auto;
+    padding: 10px;
+    background-color: #05386b;
+}
+.contact-btn{
+    background-color: #05386b;
+    color: #edf5e1;
+}
+/*header*/
+header{
+    background-color: #379683 ;
+    color: #edf5e1;
+    padding: 20px;
+}
+.header-text{
+    text-align: center;
+
+}
+.menu{
+
+}
+h1{
+    font-size: 45px;
+}
+h3{
+    font-size: 28px;
+}
+.header-text p {
+    font-size: 20px;
+    font-weight: 300;
+}
+nav.menu { 
+    text-align: center;
+}
+nav.menu a {  
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #edf5e1;
+    margin-right: 20px;
+}
+nav.menu a:hover {
+    font-weight: 700;
+}
+/*main*/
+h2{
+    font-weight: 400;
+    width: 300px;
+    border-bottom: 1px solid black;
+    margin:30px auto;
+}
+.bio-section{
+    width: 70%;
+    margin: 10px auto;
+    background-color: #379683;
+    padding: 25px;
+    border-radius: 10px;
+    color: #edf5e1;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    height: 100px;
+}
+footer p{
+    color: #edf5e1;
+    text-align: center;
+    padding-top: 30px;
+}
+/* services page*/
+.services-container{
+    display: flex;  
+}
+.service-item {
+    width: 30%;
+    height: 500px;
+    background-color: #379683;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    color: #edf5e1;
+}
+/*contact page*/
+h2{
+    border-bottom: none;
+    font-size: 35px;
+}
+h5{
+    text-align: center;
+    color: #edf5e1;
+}
+h5 p{
+    text-align: center;
+}
+.contact-container{
+    display: flex;
+}
+.contact-via{
+    width: 30%;
+    height: 500px;
+    background-color: #379683;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.contact-info{
+    text-align: center;
+    background-color: #05386b;
+}
+.contact-text{
+    color: #edf5e1;
+}
+.btn-via{
+    border: black solid 1px;
+    color: #05386b;
+    }
+a:hover{
+    background-color: #379683;
+}
+a:link{
+    color: #edf5e1;
+}
+a:visited{
+    color: rgb(161, 161, 161);
+}
