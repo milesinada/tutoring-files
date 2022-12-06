@@ -1,0 +1,59 @@
+h4{
+    color: red;
+    padding: 1px;
+}
+/*table*/
+table,
+td,
+th,
+tr {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+table {
+    width: 600px;
+    height: 100px;
+    text-align: left;
+}
+th {
+    text-align: center;
+}
+.affected-cell {
+    background-color:lightgrey;
+
+}
+
+.affected-cell-input {
+    text-align: center;
+}
+span {
+    color: red;
+    font-weight: bold;
+}
+/*flex*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*related to the direction*/
+    align-items: center;
+    height: 200px;
+    flex-wrap: wrap;
+
+}
+.flex-item{
+    background-color: green;
+    border: 1px solid yellowgreen;
+    padding: 10px;
+    flex-basis: 300px; /*width*/
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.grid-item{
+    background-color: grey;
+    border: 1px solid black;
+    padding: 10px;
+}
