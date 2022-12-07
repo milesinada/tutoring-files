@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calendar</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body >
+    <div class="title">
+        <h1>My Calendar</h1>
+
+    </div>
+    <button onclick="deleteTasks()" id="btnDelete" class="btn btn-danger"><i class="far fa-trash-alt"></i> Clear Tasks</button>
+
+    <main>
+        
+        <section>
+            <button id="btnShow" class="btn btn-info">Start </button>
+            <div class="task-container">
+                
+
+            </div>
+        </section>
+
+        <aside>
+            <h3>Task Information</h3>
+            <div class="form">
+                <div>
+                    <i class="iImportant far fa-star"></i> 
+                </div>
+
+                <div>
+                    <label class="form-label">Title</label>
+                    <input id="txtTaskTitle" class="form-control" type="text">    
+                </div>
+
+                <div>
+                    <label class="form-label">Due Date</label>
+                    <input id="txtDue" class="form-control" type="datetime-local">    
+                </div>
+
+                <div>
+                    <label class="form-label">Location</label>
+                    <input id="txtLocation" class="form-control" type="text">    
+                </div>
+
+                <div>
+                    <label class="form-label">Description</label>
+                    <textarea id="txtDescription" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div>
+                    <label class="form-label">Participants</label>
+                    <input id="txtParticipants" class="form-control" type="text">    
+                </div>
+
+                <div>
+                    <label class="form-label">Color</label>
+                    <input id="txtColor" class="form-control" type="color">    
+                </div>
+
+                    <button id="btnSave" class="btn btn-outline-primary">Save Task</button>
+            </div>
+        </aside>
+
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/task.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/test.js"></script>
+
+
+</body>
+</html>
