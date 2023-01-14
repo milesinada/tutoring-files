@@ -1,0 +1,129 @@
+/* Global */
+.control{
+    width: 50%;
+}
+.error{
+    border: 2px solid red;
+}
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color: #141E61;
+    color: #EEEEEE;
+}
+/* Nav */
+nav{
+    background-color: #90edef10;
+    height: 70px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: #e1e1e1;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+  }
+  a:before {
+    content: '';
+    position: absolute;
+    border: #e1e1e1 solid 4px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: top, right, bottom, left;
+    transition-property: top, right, bottom, left;
+  }
+  a:hover:before, a:focus:before, .a:active:before {
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    left: -8px;
+  }
+/* Index */
+hr{
+    height:3px;
+  border-width:0;
+  width: 50%;
+  margin:10px auto;
+  background-color:#e1e1e1;
+}
+#sign-in{
+    border: #0F044C solid 3px;
+    background-color: #90edef10;
+    box-shadow: 5px 5px 5px #0F044C;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    border-radius: 30px;
+}
+#signInBtn{
+    margin-top: 15px;
+}
+.signUp-btn{
+    margin-bottom: 10px;
+}
+#alertError{
+    color: red;
+    background-color: rgb(228, 166, 166) ;
+    width: 300px;
+    margin-left: 30%;
+}
+.hide{
+    display: none;
+}
+/* Register */
+.nav-btn{
+    margin-left: 20px;
+    margin-top: 20px
+}
+#registerForm{
+    border: #0F044C solid 3px;
+    background-color: #90edef10;
+    box-shadow: 5px 5px 5px #0F044C;
+    padding-left: 20%;
+    padding-bottom: 2%;
+    width: 75%;
+    margin-left: 20%;
+    border-radius: 30px;
+}
+#btnSave{
+    margin-left: 70%;
+}
+/* Users */
+table{
+    border: #e1e1e1 4px solid;
+    border-collapse: collapse;
+    background-color: #787a9134;
+    margin-left:auto; 
+    margin-right:auto;
+    box-shadow: #0F044C 10px 10px 10px 10px;
+
+}
+table th{
+    border: #e1e1e1 4px solid;
+    text-align: center;
+    font-weight: 900;
+    padding: 5px;
+}
+td{
+    font-weight: 100;
+    text-transform: uppercase;
+    border: #e1e1e1 solid 1px;
+    padding: 5px;
+}

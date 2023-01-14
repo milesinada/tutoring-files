@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration System</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <h2>Awesome User Registration System</h2>
+    <!-- add a login view-->
+    <div id="alertError" class="hide">Invalid Credentials! Try Again..</div>
+    <!-- <form id="sign-in">         -->
+        <div id="sign-in">
+            <div>                
+                <h3>Sign In Here</h3>
+                <input type="email" placeholder="Enter your Email" id="txtEmail">
+                <input type="password" placeholder="Enter your password" id="txtPassword">
+                <br>
+            <a class="btn" id="signInBtn">Sign In</a>
+            <br>  
+            </div>
+            
+            <hr>
+            <h3>Not yet Registered?</h3>
+            <a href="register.html" class="btn signUp-btn">Sign Up/Register</a>
+
+        </div>
+    <!-- </form> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js
+    "></script>
+    <script src="scripts/storeManager.js"></script>
+    <script src="scripts/login.js"></script>
+</body>
+</html>
