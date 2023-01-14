@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>The Fashion Pet</title>
+</head>
+<body>
+    <header class="container">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="register.html" class="nav-link ">Register</a>
+            </li>
+          </ul>
+        <h1 class="display-1">The Fashion Pet</h1>
+
+    </header>
+    <main class="container">
+        <input type="search" id="searchInput" placeholder="Search for a Pet"/>
+          <button  onclick="searchPet();" >Search</button>
+        
+        <div id="petList">
+
+        </div>
+
+
+        <h2>Register a pet</h2>
+        <form id="petInfo">
+        <!-- <label for="txtPetName">Pets's Name:</label> -->
+          <input type="text" id="txtPetName" placeholder="Pet's Name"/> <br>
+
+          <input type="number" id="nbAge" min="0" placeholder="Pet's Age"/> <br>
+
+          <input id="gender" list="dlGender" placeholder="Select Gender"> <br>
+          <datalist id="dlGender">
+            <option value="Female">
+            <option value="Male">
+          </datalist>
+
+          <!-- <input type="text" id="txtPetBreed" placeholder="Specify Breed"> <br> -->
+          <input id="breed" list="dlBreedOptions" placeholder="Select Breed"> <br>
+          <datalist id="dlBreedOptions">
+            <option value="Bulldog">
+            <option value="Poodle">
+            <option value="Golden Retriever">
+            <option value="Mixed">
+          </datalist>
+
+          <input id="services" list="dlServices" placeholder="Select Service"> <br>
+          <datalist id="dlServices">
+            <option value="Grooming">
+            <option value="Teeth Cleaning">
+            <option value="Haircut">
+            <option value="Nail Trimming">
+          </datalist>
+
+          <input type="text" id="txtOwnerName" placeholder="Owner Name"> <br>
+            <!-- regex = pattern -->
+          <input type="tel" id="telOwner" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000"> <br>
+          <input type="button" value="Add" onclick="getInfo()">
+
+        </form>
+        <button onclick="showAlert()" >Registered Pets</button>
+        <!-- add the next fields for name, age, gender, breed, service, owner name, contact phone -->
+    </main>
+    <footer class="container" id="footer-info">
+
+    </footer>
+    <script src="scripts/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+.error{
+    border-color: red;
+}
+.my-card{ 
+    width: 200px;
+    border-color: grey;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-flex;
+    color: #EEFFFD;
+    background-color: #777272;
+}
+/* color palette #EEFFFD, #03CDAA, #0B9789, #333*/
+main{
+    background: #333;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: flex;
+    width: 60rem;
+    box-shadow: -3px -2px 6px #6c6565, 7px 9px 25px #0b0b0b;
+}
+ header{
+    padding: 15px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+body{
+    background: linear-gradient(to left, #03CDAA, #03CDAA 50%, #0B9789 75%, #0B9789 75%);    
+    color: #EEFFFD;
+}
+.nav-link{
+    color: #EEFFFD;
+    
+}
+a:hover{
+    background-color: #0B9789;
+}
+button{
+    color: #EEFFFD;
+    background-color: #777272;
+    padding: 5px;
+    width: 10rem;
+    margin-left: 1%;
+   margin-bottom: flex;
+}
+footer{
+    margin-top: 90%;
+    text-align: center;
+}
+
+.container {
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: flex;
+    width: flex;
+    box-shadow: -3px -2px 6px #6c6565, 7px 9px 25px #0b0b0b;
+}
+
+input {
+    height: 30px;
+    border: 2px solid #e1dede69;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+.highlight{
+    background: green;
+}
+.search-btn{
+    justify-content: center;
+}
