@@ -1,0 +1,35 @@
+.product{
+    display: inline-block;
+    width: 18rem;
+    height: 30rem;
+    padding: 20px;
+    margin: 15px 15px 40px;
+    box-shadow: rgb(190, 190, 190) 10px 10px 10px;
+    border-radius: 30px;
+    transition: .2s;
+}
+.product:hover{
+    transform: scale(1.05);
+    background-color: white ;
+    box-shadow: rgb(228, 228, 228) 20px 20px 20px;
+}
+.product-img{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    border-radius: 30px;
+}
+
+.product-img:hover{
+    transform: scale(1.25);
+    box-shadow: rgb(190, 190, 190) 10px 10px 10px;
+}
+.price label{
+    display: flex;
+    justify-content: center;
+}
+
+.addCart{
+    
+    color: #142f40;
+}

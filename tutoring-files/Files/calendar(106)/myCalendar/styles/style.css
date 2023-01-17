@@ -1,0 +1,100 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+color: rgba(255, 255, 255, 0.904);
+text-align: center;
+font-weight: bolder;
+text-transform: uppercase;
+}
+body{
+    background-image: url("/img/Background\ Calendar2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.title{
+    height: 5rem;
+    padding: 1rem;
+    background-color: rgba(65, 65, 68, 0.514);
+}
+
+/* main flex */
+main{
+    display: flex;
+    min-height: 600px;
+}
+
+section{
+    flex: 2;
+}
+
+aside{
+    flex: 1;
+}
+/* task info */
+aside{
+    margin-right: 20%;
+    margin-top: 10px;
+    max-width: 300px;
+    background-color:rgba(255, 255, 255, 0.514);
+    padding: 10px;
+}
+
+
+#txtColor{
+    width: 50px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+/* task styles */
+.task-container{
+    color: rgb(0, 0, 0);
+    width: 40rem;
+    max-height: fit-content;
+}
+.task {
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.514);
+    margin: 20px;
+    text-align: center;
+    min-width: 150px; 
+    min-height: 80px;
+    display: flex;
+}
+.task-title{
+    flex: 2;
+}
+.task-middle{
+    flex: 1;
+}
+.iImportant{
+    font-size: 32px;
+    color: #333;
+    cursor: pointer;
+}
+.iImportant.fas{
+    color: red;
+}
+.iImportant:hover{
+    font-size: 28px;
+}
+#btnShow{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: rgba(72, 119, 72, 0.877);
+    margin: 5rem 15rem;
+    border: rgb(0, 0, 0) solid 2px;
+}
+#btnShow:hover{
+    background-color: rgb(243, 129, 129);
+}
+#btnShow:active{
+    padding:4px 7px 4px 7px;
+}

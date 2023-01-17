@@ -1,0 +1,27 @@
+.cart-item-card{
+    border: solid 1px black;
+    display: inline-flex;
+    margin: 20px;
+    width: 450px;
+    padding: 15px;
+}
+.cart-item-title{
+    text-align: center;
+    margin-top: 5%;
+}
+.cart-item-image img{
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.cart-item-info h6{
+    display: inline-flex;
+}
+.cart-item-info label{
+    margin: 5px;
+    display: inline-flex;
+}
+.btn-danger{
+    height: 35px;
+}

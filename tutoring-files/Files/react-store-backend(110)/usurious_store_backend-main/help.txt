@@ -1,0 +1,45 @@
+# install venv
+python -m pip install virtualenv
+
+
+# create the venv
+python -m venv venv
+
+
+
+# activate the venv
+mac:
+    source venv/bin/activate
+
+win:
+    venv\Scripts\activate
+
+
+
+
+# install flask
+python -m pip install flask
+
+# initial setup of a git repository
+git init
+git add .
+git commit -m "anything"
+
+git remote add origin <url>
+git push -u origin master
+
+
+# later pushed
+git add .
+git commit -m "anything"
+git push
+
+
+
+
+# run the server
+python server.py
+
+
+
+

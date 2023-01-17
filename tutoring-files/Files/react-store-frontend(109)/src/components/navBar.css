@@ -1,0 +1,15 @@
+.navbar{
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+}
+.weather-container{
+    color: rgb(190, 190, 190);
+    display: inline-flex;
+}
+.weather-container img{
+    height: 25px;
+}
+.view-cart{
+    margin-right: 15px;
+}
